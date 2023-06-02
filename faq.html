@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <title>Get Started!</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <!-- Create a navbar toggle button that triggers the collapse behavior -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    
+            <!-- Add an icon for the navbar toggle button -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <!-- Create a collapsible navbar content area -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Create an unordered list to hold the navigation links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="travel.html">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br>
+        <h1>FAQ</h1>
+    </header>
+
+    <body>
+
+        <!-- Accordion -->
+        <!-- https://getbootstrap.com/docs/5.3/components/accordion/ -->
+        <div class="accordion" id="accordionExample">
+            <!-- Accordion container -->
+
+            <div class="accordion-item">
+                <!-- Accordion item #1 -->
+
+                <h2 class="accordion-header" id="headingOne">
+                    <!-- Accordion header for item #1 -->
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Why Should I Use a Travel Agent to Book a Vacation?
+          </button>
+                </h2>
+
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <!-- Collapsible content for item #1 -->
+                    <div class="accordion-body">
+                        <!-- Content for Accordion Item #1 -->
+                        <p> A travel agent takes all of the headache out of planning a trip and handles virtually all aspects of your travel, at absolutely no cost to you. The combined experience of the team and the feedback from our thousands of travelers
+                            provides an invaluable resource to the traveler planning an important trip.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How Far in Advance Should I Book?
+          </button>
+                </h2>
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Generally, you should book domestic flights one to four months in advance. For international flights, you should book at least six months in advance. You'll want to give yourself more time for research for the latter than when
+                            traveling on domestic itineraries. When you’re booking holiday travel, it’s often best to book as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <!-- Accordion item #1 -->
+
+                <h2 class="accordion-header" id="headingThree">
+                    <!-- Accordion header for item #1 -->
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        What Are My Rights When Your Flight Is Delayed or Canceled?
+          </button>
+                </h2>
+
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <!-- Collapsible content for item #1 -->
+                    <div class="accordion-body">
+                        <!-- Content for Accordion Item #1 -->
+                        <p>The US Department of Transportation says you are entitled to a refund of your ticket cost because of a cancellation or “significant delay” and you choose not to travel. This is the policy regardless of the reason the airline cancels
+                            or delays the flight. However, what constitutes a “significant delay” remains open to interpretation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <br>
+        <footer>
+            <p>Created by Jenny and Nedim! © 2023</p>
+        </footer>
+
+        <script src="script.js"></script>
+        <!-- Import most up-to-date Bootstrap JS Bundle Here -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    </body>
+
+</html>

@@ -1,0 +1,83 @@
+/* Style the navbar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Navbar links */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+/* Page content */
+
+.content {
+    padding: 16px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 50vw;
+    height: 30vw;
+    margin: auto;
+    border: 3px solid black;
+}
+
+body {
+    background-color: #748CAB !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    text-align: center;
+}
+
+.container {
+    background-color: #F0EBD8;
+}
+
+.round {
+    border-radius: 10vw;
+    /* Adjust the value to control the roundness of the edges */
+    padding: 10px;
+    /* Add padding to create space between the text and the box */
+    background-color: #f8f9fa;
+    /* Change the background color as desired */
+    margin: auto;
+}

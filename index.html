@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- Create a navbar toggle button that triggers the collapse behavior -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- Add an icon for the navbar toggle button -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- Create a collapsible navbar content area -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Create an unordered list to hold the navigation links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="travel.html">Get Started</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <br />
+
+        <h1>Welcome!</h1>
+    </header>
+
+    <main>
+        <!-- Carousel -->
+        <!-- https://getbootstrap.com/docs/5.3/components/carousel/ -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="London.jpeg" class="d-block w-100" alt="..." />
+                    <h5>London!</h5>
+                    <p>Whoa!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="NYC.jpeg" class="d-block w-100" alt="..." />
+                    <h5>New York City</h5>
+                    <p>Sick!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="Paris.jpeg" class="d-block w-100" alt="..." />
+                    <h5>Paris</h5>
+                    <p>Dope!</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="San Francisco.jpeg" class="d-block w-100" alt="..." />
+                    <h5>San Francisco</h5>
+                    <p>Ooo la la!</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <div class="round">
+            <p>
+                Our quest is to manage business travel and fulfill vacation dreams through our commitment to personalized, world-class service. As members of the [Company Name] management team, we provide the highest level of travel management in the industry. We believe
+                that consistent, ethical and quality performance with our customers, vendors, employees and community will result in loyal, long-term relationships. We believe our service should exceed industry standards and be the best value for the
+                customer. We will create a profit that will enhance the lives of our employees and, in part, will be given back to the community through programs and services. We believe that through shared decision-making, our company will proactively
+                and successfully meet the challenges of the future. We can never be less than the best.
+            </p>
+        </div>
+
+        <footer>
+            <p>Created by Jenny and Nedim! © 2023</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+
+    <!-- Import most up-to-date Bootstrap JS Bundle Here -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+
+</html>
